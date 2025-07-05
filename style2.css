@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100vh;
+    color: #333;
+}
+.container{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    -webkit-border-radius:12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+    width: 90%;
+    max-width: 500px;
+    
+}
+h1{
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form{
+    margin-bottom: 20px;
+}
+input[type="text"],textarea{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:1px solid #ddd;
+    border-radius: 6px;
+    -webkit-border-radius:12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    font-size: 14px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius:12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #218838;
+}
+#notelist{
+    list-style-type: none;
+    padding: 0;
+}
+.note-item{
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.note-item h3{
+    margin: 0;
+    font-size: 18px;
+    color: #222;
+}
+.note-item p{
+    margin: 5px 0;
+    color: #555;
+}
+
+.notes-action{
+    display: flex;
+    gap: 10px;
+}
+.edit-btn,.delete-btn
+{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.edit-btn{
+    background-color: #ffc107;
+    color: white;
+
+}
+.edit-btn:hover{
+    background-color:#ffc107 ;
+}
+.delete-btn{
+    background-color: #dc3543;
+    color:white;
+}
+.delete-btn:hover{
+    background-color: #cb8233;
+}
